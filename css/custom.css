@@ -443,11 +443,12 @@ body{
 	font-weight: 300;
 	line-height: 1.2em;
 	letter-spacing: -0.01em;
-	color: var(--primary-color);
+	color: #FF9900;
 	margin-bottom: 0;
 	cursor: none;
 }
 
+ 
 
 .section-title h1 span,
 .section-title h2 span{
@@ -2826,14 +2827,14 @@ header.main-header .header-sticky.active{
 	visibility: visible;
 }
 
-.team-image img{
+.team-image img {
 	width: 100%;
-	aspect-ratio: 1 / 1.15;
-	object-fit: cover;
+	height: 300px; 
 	border-radius: 20px;
 	transition: all 0.5s ease-in-out;
+	border: 6px solid #FF9900;
+	display: block;
 }
-
 .team-member-item:hover .team-image img{
     transform: scale(1.1);
 }
@@ -4824,7 +4825,6 @@ header.main-header .header-sticky.active{
 	.about-us{
 		padding: 50px 0;
 		background-size: 50% auto;
-		margin-top: 20px ;
 	}
 
 	.about-image{
@@ -5864,6 +5864,7 @@ header.main-header .header-sticky.active{
 
 	.company-experience-counter h2{
         font-size: 30px;
+		margin-left: 60px;
     }
 
 	.company-experience-content{
@@ -5872,6 +5873,7 @@ header.main-header .header-sticky.active{
 
 	.company-experience-content p{
         font-size: 14px;
+		margin-left: 80px;
     }
 
 	.about-list-btn{
@@ -6451,5 +6453,9 @@ header.main-header .header-sticky.active{
 }
 
 .navbar-brand h3{
+	color: #FF9900;
+}
+
+.footer-logo h3{
 	color: #FF9900;
 }
