@@ -462,11 +462,16 @@ body{
 
 .section-title-content.dark-section p,
 .section-title.dark-section p,
-.section-title.dark-section h1,
 .section-title.dark-section h2,
 .section-title.dark-section h3{
 	color: var(--white-color);
 }
+
+.section-title.dark-section h1
+{
+	color:#FF9900 ;
+}
+
 
 .help-block.with-errors ul{
 	margin: 0;
