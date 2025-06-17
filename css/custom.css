@@ -6464,3 +6464,8 @@ header.main-header .header-sticky.active{
 .footer-logo h3{
 	color: #FF9900;
 }
+.site-logo h3{
+	color: #FF9900;
+	font-size: 24px;
+	font-weight: 800;
+}
