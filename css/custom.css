@@ -42,7 +42,7 @@
 	--primary-color			: #222222;
 	--secondary-color		: #F5F5F5;
 	--text-color			: #81848A;
-	--accent-color			: #FF9900;
+	--accent-color			:	#1E90FF;
 	--white-color			: #FFFFFF;
 	--divider-color			: #EBEBEB;
 	--dark-divider-color	: #FFFFFF1A;
@@ -443,7 +443,7 @@ body{
 	font-weight: 300;
 	line-height: 1.2em;
 	letter-spacing: -0.01em;
-	color: #FF9900;
+	color:	#1E90FF;
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -469,7 +469,7 @@ body{
 
 .section-title.dark-section h1
 {
-	color:#FF9900 ;
+	color:	#1E90FF ;
 }
 
 
@@ -1114,13 +1114,13 @@ header.main-header .header-sticky.active{
 
 .about-content-list ul li{
 	position: relative;
-    color: #FF9900;
+    color:	#1E90FF;
 	text-transform: capitalize;
     padding-left: 40px;
 	margin-bottom: 20px;
 }
 .about-content .section-title h3{
-	color: #FF9900;
+	color:	#1E90FF;
 }
 
 .about-content .section-title h2{
@@ -1231,7 +1231,7 @@ header.main-header .header-sticky.active{
 }
 
 .services-list-box{
-	background: #FF9900;
+	background:	#1E90FF;
 	border: 1px solid var(--secondary-color);
 	border-radius: 40px;
 	padding: 60px;
@@ -1746,7 +1746,7 @@ header.main-header .header-sticky.active{
 	margin-bottom: 30px;
 	transition: all 0.3s ease-in-out;
 	overflow: hidden;
-	background-color: #FF9900;
+	background-color:	#1E90FF;
 	color: #fff;
 }
 
@@ -2840,7 +2840,7 @@ header.main-header .header-sticky.active{
 	height: 300px; 
 	border-radius: 20px;
 	transition: all 0.5s ease-in-out;
-	border: 6px solid #FF9900;
+	border: 6px solid	#1E90FF;
 	display: block;
 }
 .team-member-item:hover .team-image img{
@@ -6456,18 +6456,18 @@ header.main-header .header-sticky.active{
 
 
 .what-we-do-item .icon-box i {
-    color: #FF9900;
+    color:	#1E90FF;
 }
 
 .navbar-brand h3{
-	color: #FF9900;
+	color:	#1E90FF;
 }
 
 .footer-logo h3{
-	color: #FF9900;
+	color:	#1E90FF;
 }
 .site-logo h3{
-	color: #FF9900;
+	color:	#1E90FF;
 	font-size: 24px;
 	font-weight: 800;
 }
