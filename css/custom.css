@@ -6529,6 +6529,7 @@ header.main-header .header-sticky.active{
     position: relative;
     border: 1px solid #e0e0e0;
     backdrop-filter: blur(6px);
+	  border-color: #1E90FF;
 }
 
 .custom-product-card:hover {
@@ -6580,12 +6581,20 @@ header.main-header .header-sticky.active{
 }
 
 .custom-product-info h4 a {
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
+    font-size: 34px; 
+    font-weight: 700; 
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    transition: color 0.3s ease;
 }
 
+
+
 .custom-product-info h4 a:hover {
-    color: #fff;
+    color: #000;
 }
 
 .custom-product-info p {
