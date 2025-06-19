@@ -6472,3 +6472,139 @@ header.main-header .header-sticky.active{
 	font-weight: 800;
 }
 
+.custom-products {
+    background: linear-gradient(135deg, #f0f2f5, #dfe7f2);
+    padding: 60px 0;
+}
+
+
+.custom-title h3 {
+    font-size: 20px;
+    color: #1E90FF;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.custom-title h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #081D0D;
+    margin-bottom: 25px;
+}
+
+.custom-title h2 span {
+    color: #1E90FF;
+}
+
+
+.custom-btn-wrapper .custom-btn {
+    background-color: #1E90FF;
+    color: white;
+    padding: 14px 34px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 8px 18px rgba(30, 144, 255, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+    background-color: #0f74d1;
+    box-shadow: 0 10px 25px rgba(15, 116, 209, 0.4);
+}
+
+
+.custom-product-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    backdrop-filter: blur(6px);
+}
+
+.custom-product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    border-color: #1E90FF;
+}
+
+
+.custom-product-img {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f9fc;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+    position: relative;
+}
+
+.custom-product-img img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.custom-product-card:hover img {
+    transform: scale(1.06);
+}
+
+
+.custom-product-info {
+    padding: 25px 22px;
+    text-align: center;
+	height: 170px;
+	background-color: #1E90FF;
+}
+
+.custom-product-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #081D0D;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+}
+
+.custom-product-info h4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-product-info h4 a:hover {
+    color: #fff;
+}
+
+.custom-product-info p {
+    font-size: 14.5px;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.custom-product-card::before {
+    content: \"NEW\";
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    background: #1E90FF;
+    color: white;
+    padding: 5px 40px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: rotate(-45deg);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
