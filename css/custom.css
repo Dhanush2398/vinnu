@@ -6604,3 +6604,16 @@ header.main-header .header-sticky.active{
     margin: 0;
 }
 
+@media (max-width: 320px) {
+    .company-experience-content p {
+        font-size: 10px; 
+        margin-left: 120px;
+    }
+	
+.company-experience-counter h2 {
+        font-size: 30px;
+        margin-left: 110px;
+		
+    }
+}
+
