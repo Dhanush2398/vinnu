@@ -1292,7 +1292,7 @@ header.main-header .header-sticky.active{
 }
 
 .service-item:hover .service-footer a{
-	background: var(--accent-color);
+	background: #fff;
 }
 
 .service-item .service-footer a img{
