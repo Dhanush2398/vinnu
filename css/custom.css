@@ -6568,8 +6568,8 @@ header.main-header .header-sticky.active{
 .custom-product-info {
     padding: 25px 22px;
     text-align: center;
-	height: 80px;
-	background-color: #1E90FF;
+    background-color: #1E90FF;
+    height: auto; 
 }
 
 .custom-product-info h4 {
@@ -6620,4 +6620,20 @@ header.main-header .header-sticky.active{
 .custom-product-card .hero-btn{
 	margin: 10px;
 	align-self: center;
+}
+@media (max-width: 576px) {
+  .custom-product-info h4 a {
+    font-size: 20px;
+  }
+  .custom-product-info p {
+    font-size: 13px;
+  }
+}
+
+.custom-product-info p {
+    font-size: 16px;
+    color: #000;
+	font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
 }
