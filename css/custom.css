@@ -3279,18 +3279,8 @@ header.main-header .header-sticky.active{
     margin-bottom: 30px;
 }
 
-.service-featured-image figure{
-    display: block;
-    border-radius: 40px;
-    overflow: hidden;
-}
 
-.service-featured-image img{
-    border-radius: 40px;
-    width: 100%;
-    aspect-ratio: 1 / 0.67;
-    object-fit: cover;
-}
+
 
 .service-entry{
     margin-bottom: 40px;
@@ -5391,18 +5381,33 @@ header.main-header .header-sticky.active{
 		font-size: 34px;
 	}
 
-	.service-featured-image{
-		margin-bottom: 20px;
-	}
 
-	.service-featured-image figure{
-		border-radius: 30px;
-	}
+.service-featured-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* light background for contrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
 
-	.service-featured-image img{
-		aspect-ratio: 1 / 0.6;
-		border-radius: 30px;
-	}
+.service-featured-image figure {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.service-featured-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px; /* limits very tall images */
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
 
 	.service-entry{
 		margin-bottom: 30px;
