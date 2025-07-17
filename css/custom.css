@@ -6643,3 +6643,127 @@ header.main-header .header-sticky.active{
 .navbar-brand img{
 	height: 80px;
 }
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #1E90FF;
+  margin: 40px 0 25px;
+}
+
+
+.machine-section {
+  padding: 0 20px;
+}
+
+.table-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  overflow-x: auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.machine-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.machine-table th,
+.machine-table td {
+  border: 1px solid #ddd;
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.machine-table th {
+  background-color: #1E90FF;
+  color: white;
+  font-size: 16px;
+}
+
+.machine-table tr:nth-child(even) {
+  background-color: #f0f8ff;
+}
+
+.machine-table tr:hover {
+  background-color: #e6f2ff;
+}
+
+
+.materials-section {
+  background: #e5f3ff;
+  margin: 30px 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.materials-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 16px;
+  gap: 10px;
+  color: #333;
+}
+
+
+.machine-cards-section {
+  padding: 20px 15px;
+  background: #f3faff;
+}
+
+.machine-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.machine-card {
+  background-color: #ffffff;
+  border-left: 5px solid #1E90FF;
+  border-radius: 8px;
+  padding: 12px 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.machine-card:hover {
+  transform: translateY(-2px);
+}
+
+.machine-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.machine-card p strong {
+  color: #1E90FF;
+}
+
+
+@media (max-width: 768px) {
+  .machine-table,
+  .table-wrapper {
+    display: none;
+  }
+
+
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 769px) {
+  .machine-cards-section {
+    display: none;
+  }
+}
